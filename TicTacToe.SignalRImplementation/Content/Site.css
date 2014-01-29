@@ -1,0 +1,129 @@
+﻿body
+{
+    background-color: #FFFFFF;
+    width:500px;
+}
+
+span.box
+{
+    display: block;
+    border: 2px solid gray;
+    height: 120px;
+    width: 120px;
+    float: left;
+    margin: 5px;
+}
+
+div#game
+{ 
+    height: 420px;
+}
+
+span.mark1
+{
+    background: url('/Content/Images/TicTacToeX.png') center center no-repeat;
+}
+
+span.mark2
+{
+    background: url('/Content/Images/TicTacToeO.png') center center no-repeat;
+}
+
+#game-holder
+{
+    padding-left:50px;
+    height:auto;
+}
+
+.markO
+{
+    background: url('/Content/Images/TicTacToeO.png') center center no-repeat;
+}
+
+.markX
+{
+    background: url('/Content/Images/TicTacToeX.png') center center no-repeat;
+}
+
+
+#games-list-container{
+    width:500px;
+}
+
+
+.games-list ul
+{
+  
+    width: 95%;
+    padding: 3px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #FFF;
+    list-style: none;
+    text-indent: 15px;
+    width: 400px;
+    clear: right;
+    overflow: auto;  
+    max-height:150px;
+}
+
+.games-list ul li
+{
+    background: rgb(126, 116, 116);
+    line-height: 38px;
+    border-bottom: 1px solid #333;
+}
+
+.games-list ul li a
+{
+    text-decoration: dashed;
+    color: #bfac42;
+}
+
+.games-list ul li#active
+{
+    background: #d40203;
+}
+
+#created-games ul li .btn-delete-game
+{
+    background: url('/Content/Images/Delete.png') no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: right;
+    margin: 7px;
+}
+
+#create-game-holder
+{
+    width: 490px;
+    border: 1px solid #aaaaaa/*{borderColorContent}*/;
+    border-radius: 4px/*{cornerRadius}*/;
+    padding:10px;
+    background-color:white;
+}
+
+#login-form ,#register-form
+{
+    width:400px;
+}
+
+.btn-leave-game
+{
+    float:right;
+    margin:7px;
+}
+input
+{
+    width:100px;
+    background-color: #E5E5E5;
+}
+#messages-holder{
+    float:left;
+}
+#error-message-holder
+{
+     float:left;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.SignalR.Ninject</id>
+    <version>1.0.0</version>
+    <title>Microsoft ASP.NET SignalR Ninject dependency resolver</title>
+    <authors>David Fowler, Damian Edwards</authors>
+    <owners>David Fowler, Damian Edwards</owners>
+    <licenseUrl>https://github.com/SignalR/SignalR/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/scott-xu/SignalR.Ninject</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ninject dependency resolver for SignalR</description>
+    <summary>folked from https://github.com/davidfowl/SignalR.Ninject</summary>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>SignalR Ninject IoC DI</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.SignalR.Core" version="1.0.0" />
+      <dependency id="Ninject" version="3.0.1.10" />
+    </dependencies>
+  </metadata>
+</package>

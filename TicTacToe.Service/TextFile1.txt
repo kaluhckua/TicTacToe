@@ -1,0 +1,2 @@
+﻿The position where to place the marker, should be between 0 and 9", "INV_POS
+The position is occupied,"INV_POS"
